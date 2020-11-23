@@ -116,6 +116,13 @@ public class AdminService {
 	}
 	
 	
+	public boolean isExist(Admin admin) {
+		return false;
+		
+	}
+	
+	
+	
 	
 	
 
