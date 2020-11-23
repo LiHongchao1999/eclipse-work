@@ -70,27 +70,7 @@ public class AdminService {
 //		
 //				
 //			
-//	
-//	
-//	
-//	
-//	/**
-//	 * 根据用户名删除指定用户
-//	 * @param uName 用户名
-//	 * @return 是否删除用户，成功删除返回true，否则返回false
-//	 */
-//	public boolean deleteUserByUname(String uName) {
-//		//拼接删除用户的sql语句
-//		String sql="delete from UserInfo where uName='"+uName+"'";
-//		//更新用户
-//		int n = -1;//存储删除的记录数
-//		try {
-//			n = dbUtil.updateData(sql);
-//		} catch (ClassNotFoundException | SQLException e) {
-//			e.printStackTrace();
-//		}
-//		return n > 0 ? true : false;
-//	}
+
 	
 	
 	
